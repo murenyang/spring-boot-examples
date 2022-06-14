@@ -29,7 +29,7 @@ import org.springframework.core.convert.converter.Converter;
 
 @SpringBootApplication
 public class ThymeleafApplication {
-
+	// bean
 	@Bean
 	public MessageRepository messageRepository() {
 		return new InMemoryMessageRepository();
